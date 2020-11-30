@@ -1,0 +1,51 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+  text-decoration: none;
+  list-style: none;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  position: relative;
+}
+
+:root {
+  --background: #eee;
+  --color-dark-grey: #cfcfcf;
+  --color-light-grey: #ececec;
+  --color-white: #fff;
+  --background-color: #fafafa;
+  --off-white: #f7f7f7;
+  --color-black: #000;
+  --color-write: #333;
+  --color-grey: grey;
+  --shadow-color: rgba(0, 0, 0, 0.8);
+  --light-shadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+  --dark-shadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  --transparent: transparent;
+
+  --secondary: #2baeef;
+  --primary: #273573;
+  --primary-dark: #071c42;
+  --orange: #ce4918;
+  --green: #00a850;
+  --pink: #ed0076;
+  --purple: #878ab7;
+  --yellow: #f6ce2e;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;900");
+body {
+  font-family: "Mulish", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.7rem;
+}
