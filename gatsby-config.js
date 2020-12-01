@@ -4,7 +4,7 @@ module.exports = {
     description: "institution is the best",
     author: "@SuranjanRai",
     twitterUsername: "@RaiSuranjan",
-    image: "/image.webp",
+    image: "/image.jpeg",
     siteUrl: "https://educationalflavouraaus.netlify.app/",
   },
   plugins: [
