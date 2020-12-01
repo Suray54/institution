@@ -4,7 +4,7 @@ module.exports = {
     description: "institution is the best",
     author: "@SuranjanRai",
     twitterUsername: "@RaiSuranjan",
-    image: "/seoImage.jpg",
+    image: "/image.webp",
     siteUrl: "https://educationalflavouraaus.netlify.app/",
   },
   plugins: [
@@ -19,7 +19,7 @@ module.exports = {
       resolve: "gatsby-plugin-robots-txt",
       options: {
         host: "https://educationalflavouraaus.netlify.app/",
-        sitemap: "https://educationalflavouraaus.netlify.app//sitemap.xml",
+        sitemap: "https://educationalflavouraaus.netlify.app/sitemap.xml",
         policy: [{ userAgent: "*", allow: "/" }],
       },
     },
