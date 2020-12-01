@@ -5,7 +5,7 @@ module.exports = {
     author: "@SuranjanRai",
     twitterUsername: "@RaiSuranjan",
     image: "/seoImage.jpg",
-    //siteUrl: "https://gatsbypractise.netlify.app",
+    siteUrl: "https://educationalflavouraaus.netlify.app/",
   },
   plugins: [
     {
@@ -15,10 +15,20 @@ module.exports = {
         path: `${__dirname}/src/images/`,
       },
     },
-
+    {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        host: "https://educationalflavouraaus.netlify.app/",
+        sitemap: "https://educationalflavouraaus.netlify.app//sitemap.xml",
+        policy: [{ userAgent: "*", allow: "/" }],
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-playground`,
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`,
+    "gatsby-plugin-robots-txt",
   ],
 }

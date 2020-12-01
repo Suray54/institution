@@ -1,7 +1,13 @@
 import React from "react"
+import SEO from "./../components/SEO"
 import Layouts from "../components/layouts/layouts.components"
 const About = () => {
-  return <Layouts>hello from about</Layouts>
+  return (
+    <Layouts>
+      <SEO title="About" />
+      hello from about
+    </Layouts>
+  )
 }
 
 export default About
