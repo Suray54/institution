@@ -94,8 +94,8 @@ export class Footer extends Component {
         </div>
         <div className="footer__end">
           <p>
-            Copyright &#169; all rights reserved by Institute | designed &
-            developed by
+            Copyright &#169; {new Date().getFullYear()} all rights reserved by
+            Institute | designed & developed by
             <a href="https://suray54.github.io/Rezume/">Suranjan rai</a>
           </p>
         </div>

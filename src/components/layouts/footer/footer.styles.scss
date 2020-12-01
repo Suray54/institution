@@ -10,12 +10,16 @@
   justify-content: center;
   align-items: center;
   font-size: 1.6rem;
+  font-weight: 300;
   line-height: 30px;
-  color: var(--color-grey);
+  color: var(--off-white);
 
   &__details {
     @media only screen and (max-width: 650px) {
       padding: 0px;
+    }
+    .main {
+      font-weight: 500;
     }
     a {
       color: var(--color-white);
@@ -47,7 +51,7 @@
         &:hover {
           background: var(--color-white);
 
-          color: var(--secondary);
+          color: var(--secondary-main);
         }
         &:not(:first-child) {
           margin-left: 5px;
@@ -72,30 +76,31 @@
     }
     &--links {
       text-decoration: none;
-      color: var(--color-light-grey);
-      border-bottom: 0.5px solid var(--color-light-grey);
+      color: var(--off-white);
+      border-bottom: 0.5px solid var(--off-white);
       &:hover {
         text-decoration: none;
-        color: var(--secondary-main);
         border: none;
       }
     }
     ul {
       li {
+        text-transform: capitalize;
         margin-top: 10px;
+        font-weight: 500;
       }
     }
   }
   &__end {
     margin: 80px 0;
     a {
+      font-weight: 500;
       margin-left: 5px;
       text-decoration: none;
-      color: var(--color-light-grey);
-      border-bottom: 0.5px solid var(--color-light-grey);
+      color: var(--off-white);
+      border-bottom: 0.5px solid var(--off-white);
       &:hover {
         text-decoration: none;
-        color: var(--secondary);
         border: none;
       }
     }

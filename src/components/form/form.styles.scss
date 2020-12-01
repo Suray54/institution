@@ -1,0 +1,39 @@
+.contact {
+  margin-top: 15px;
+  form {
+    input[type="text"],
+    input[type="number"],
+    input[type="email"] {
+      color: var(--primary-main);
+      font-size: 14px;
+      width: 100%;
+      padding: 16px 16px;
+      margin: 5px 0;
+      display: inline-block;
+      background-color: var(--background);
+      box-sizing: border-box;
+      outline: none;
+      border: none;
+      &::-webkit-input-placeholder {
+        color: var(--color-grey);
+        font-size: 16px;
+      }
+    }
+    .submit {
+      margin: 15px 0;
+      width: 100%;
+      height: 50px;
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 3px;
+      line-height: 18px;
+      background-color: var(--primary-main);
+      padding: 8px 34px;
+      outline: none;
+      color: var(--color-white);
+      border: none;
+      text-transform: uppercase;
+      margin-right: 10px;
+    }
+  }
+}

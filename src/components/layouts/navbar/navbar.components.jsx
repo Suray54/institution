@@ -22,7 +22,7 @@ export class Navbar extends Component {
     return (
       <>
         <nav className="navbar navbar-expand-md sticky-top">
-          <Link fade className="navbar-brand" to="/">
+          <Link className="navbar-brand" to="/">
             <img src={logo} alt="logo" />
           </Link>
           <button
