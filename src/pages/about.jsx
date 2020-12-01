@@ -1,7 +1,7 @@
 import React from "react"
-
 import Layouts from "../components/layouts/layouts.components"
-
-export default function Home() {
-  return <Layouts>hello from homepage/ index</Layouts>
+const About = () => {
+  return <Layouts>hello from about</Layouts>
 }
+
+export default About

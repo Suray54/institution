@@ -11,7 +11,6 @@
 html,
 body {
   font-size: 62.5%;
-  overflow-x: hidden;
   box-sizing: border-box;
   scroll-behavior: smooth;
   position: relative;
@@ -32,19 +31,19 @@ body {
   --dark-shadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
   --transparent: transparent;
 
-  --secondary: #2baeef;
-  --primary: #273573;
+  --secondary-main: #4db3ce;
+  --primary-main: #203238;
+
   --primary-dark: #071c42;
-  --orange: #ce4918;
-  --green: #00a850;
-  --pink: #ed0076;
-  --purple: #878ab7;
-  --yellow: #f6ce2e;
+  --orange-main: #ce4918;
+  --green-main: #00a850;
+  --pink-main: #ed0076;
+  --purple-main: #878ab7;
+  --yellow-main: #f6ce2e;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;900");
 body {
-  font-family: "Mulish", sans-serif;
   font-size: 1.4rem;
   font-weight: 400;
   line-height: 1.7rem;

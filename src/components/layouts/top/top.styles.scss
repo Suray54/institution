@@ -1,0 +1,50 @@
+.top {
+  background-color: var(--primary-main);
+  color: var(--color-white);
+  padding: 0 8%;
+  display: flex;
+  justify-content: space-between;
+  &__details {
+    display: flex;
+
+    align-items: center;
+    flex-wrap: wrap;
+
+    span {
+      color: var(--yellow-main);
+      margin-right: 5px;
+      font-size: 18px;
+    }
+    &--email {
+      font-size: 14px;
+      margin-right: 20px;
+      font-weight: 500;
+    }
+    &--phone {
+      font-size: 14px;
+      font-weight: 500;
+      a {
+        color: var(--color-white);
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  &__apply {
+    padding: 12px 18px;
+    background-color: var(--yellow-main);
+    font-weight: 700;
+    cursor: pointer;
+
+    &:hover .top__apply--link {
+      color: var(--color-white);
+    }
+    &--link {
+      color: var(--primary-main);
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
