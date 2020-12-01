@@ -7,7 +7,14 @@ import ContactForm from "../../form/form.components"
 const VideoBanner = () => {
   return (
     <>
-      <video className="video-background" width="100%" loop muted autoPlay>
+      <video
+        className="video-background"
+        height="100%"
+        width="100%"
+        loop
+        muted
+        autoPlay
+      >
         <source src={video} type="video/mp4" />
       </video>
       <div className="row video-background__details">
