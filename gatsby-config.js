@@ -4,7 +4,7 @@ module.exports = {
     description: "institution is the best",
     author: "@SuranjanRai",
     twitterUsername: "@RaiSuranjan",
-    image: "/image.webp",
+    image: "/defaultBcg.jpeg",
     siteUrl: "https://educationalflavouraaus.netlify.app/",
   },
   plugins: [
@@ -29,6 +29,5 @@ module.exports = {
     `gatsby-plugin-playground`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
-    "gatsby-plugin-robots-txt",
   ],
 }
