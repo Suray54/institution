@@ -8,10 +8,12 @@ const Top = () => {
     <div className="top">
       <div className="top__details">
         <h3 className="top__details--email">
-          <span>
-            <HiOutlineMail />
-          </span>
-          abc@gmail.com
+          <a href="mailto:m.bluth@example.com">
+            <span>
+              <HiOutlineMail />
+            </span>
+            info.institute@gmail.com
+          </a>
         </h3>
         <h3 className="top__details--phone">
           <a href="tel:9063440005">

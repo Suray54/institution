@@ -1,0 +1,34 @@
+.achivement-section {
+  background: rgba(0, 0, 0, 0.5);
+  background-position: center;
+  background-size: cover;
+  opacity: 1 !important;
+  padding: 40px 8%;
+  width: 100%;
+  color: var(--color-white);
+  &__main {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &-icon {
+      color: var(--yellow-main);
+      font-size: 8rem;
+    }
+    h1 {
+      font-size: 60px;
+      font-weight: 900;
+      span {
+        &:not(:last-child) {
+          margin-right: 10px;
+        }
+      }
+    }
+    p {
+      text-transform: capitalize;
+      font-size: 22px;
+      font-weight: 700;
+    }
+  }
+}

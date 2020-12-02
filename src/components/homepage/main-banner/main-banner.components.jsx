@@ -1,6 +1,6 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
 import { Link } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 import BackgroundImage from "gatsby-background-image"
 import "./main-banner.styles.scss"
 import ContactForm from "../../form/form.components"
@@ -34,8 +34,8 @@ const MainBanner = () => {
               Vulputate Ac Metus Semper Nullam Dui Mi. Vestibulum Ante. Morbi At
               Dui Nisl.
             </p>
-            <Link to="/about" className="background__details-main-link">
-              Read More
+            <Link to="/contact" className="background__details-main-link">
+              Get in Touch
             </Link>
           </div>
           <div className="col-md-4 background__details-secondary">

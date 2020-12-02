@@ -21,7 +21,7 @@ export class Navbar extends Component {
   render() {
     return (
       <>
-        <nav className="navbar navbar-expand-md sticky-top">
+        <nav className="navbar navbar-expand-lg sticky-top">
           <Link className="navbar-brand" to="/">
             <img src={logo} alt="logo" />
           </Link>
@@ -46,11 +46,6 @@ export class Navbar extends Component {
                 </Link>
               </li>
 
-              <li className="nav-item">
-                <Link className="nav-link" to="/services">
-                  Services
-                </Link>
-              </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/courses">
                   courses

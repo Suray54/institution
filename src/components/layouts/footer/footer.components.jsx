@@ -53,7 +53,11 @@ export class Footer extends Component {
             </p>
             <p>
               <span className="main">Email:</span>
-              <span className="main-details">info.institute@gmail.com</span>
+              <span className="main-details">
+                <a href="mailto:m.bluth@example.com">
+                  info.institute@gmail.com
+                </a>
+              </span>
             </p>
           </div>
           <div className="col-lg-3 footer__details">
@@ -69,11 +73,7 @@ export class Footer extends Component {
                   About
                 </Link>
               </li>
-              <li>
-                <Link className="footer__details--links" to="/services">
-                  Services
-                </Link>
-              </li>
+
               <li>
                 <Link className="footer__details--links" to="/courses">
                   courses
