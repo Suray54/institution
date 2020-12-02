@@ -75,8 +75,8 @@ export class Footer extends Component {
               </li>
 
               <li>
-                <Link className="footer__details--links" to="/courses">
-                  courses
+                <Link className="footer__details--links" to="/services">
+                  services
                 </Link>
               </li>
               <li>

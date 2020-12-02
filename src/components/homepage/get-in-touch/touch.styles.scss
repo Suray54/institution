@@ -1,0 +1,22 @@
+.contact-banner {
+  h1 {
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 40px;
+  }
+  p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+  }
+  &__get-in-touch {
+    padding: 60px 8%;
+    background-color: var(--primary-main);
+    color: var(--color-white);
+  }
+  &__call-us-on {
+    background-color: var(--secondary-main);
+    color: var(--color-white);
+    padding: 60px 8%;
+  }
+}
