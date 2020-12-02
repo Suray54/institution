@@ -14,7 +14,10 @@ const GetInTouch = () => {
         </div>
         <div className="col-md-4 contact-banner__call-us-on">
           <h1>
-            Contact Us on <span> 9063440005</span>
+            Contact Us on
+            <span>
+              <a href="tel:9060124286"> 9860124286</a>
+            </span>
           </h1>
         </div>
       </div>

@@ -18,5 +18,15 @@
     background-color: var(--secondary-main);
     color: var(--color-white);
     padding: 60px 8%;
+    span {
+      a {
+        color: var(--color-white);
+        text-decoration: underline;
+        &:hover {
+        }
+      }
+
+      display: block;
+    }
   }
 }
