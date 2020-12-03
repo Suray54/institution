@@ -51,7 +51,7 @@
     &-link {
       margin-top: 20px;
       padding: 10px 20px;
-      background-color: var(--secondary-main);
+      background-color: var(--primary-main);
       color: var(--color-white);
       font-size: 1.6rem;
       font-weight: 500;
@@ -59,7 +59,7 @@
       border-radius: 3px;
       &:hover {
         text-decoration: none;
-        background-color: var(--primary-main);
+        background-color: var(--secondary-main);
         color: var(--color-white);
       }
     }
