@@ -12,10 +12,10 @@ const ContactForm = () => {
           <div>
             <input
               type="text"
-              name="course"
-              id="course"
+              name="name"
+              id="name"
               className="formControl"
-              placeholder="Course Name"
+              placeholder="Name"
             />
           </div>
           <div>
@@ -24,7 +24,7 @@ const ContactForm = () => {
               name="level"
               id="level"
               className="formControl"
-              placeholder="Level: +2, bachelor"
+              placeholder="Level"
             />
           </div>
           <div>
@@ -33,7 +33,7 @@ const ContactForm = () => {
               name="email"
               id="email"
               className="fromControl"
-              placeholder="Email@gmail.com"
+              placeholder="Email"
             />
           </div>
           <div>
@@ -42,7 +42,7 @@ const ContactForm = () => {
               name="number"
               id="number"
               className="fromControl"
-              placeholder="+977 9860124286"
+              placeholder="Phone Number"
               required
             />
           </div>
