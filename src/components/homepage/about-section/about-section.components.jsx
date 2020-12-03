@@ -1,5 +1,6 @@
 import React from "react"
 import "./about-section.styles.scss"
+
 const AboutSection = () => {
   return (
     <>

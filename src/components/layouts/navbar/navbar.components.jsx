@@ -10,7 +10,7 @@ export class Navbar extends Component {
       $ = require("jquery")
     }
     $(window).scroll(function () {
-      if ($(document).scrollTop() > 40) {
+      if ($(document).scrollTop() > 35) {
         $(".navbar").addClass("affix")
       } else {
         $(".navbar").removeClass("affix")
