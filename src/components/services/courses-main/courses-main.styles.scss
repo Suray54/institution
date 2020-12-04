@@ -1,0 +1,63 @@
+.courses-main {
+  padding: 80px 10%;
+  text-align: center;
+
+  h3 {
+    font-size: 24px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: var(--color-write);
+    margin-bottom: 60px;
+    position: relative;
+    &::before {
+      content: "";
+      bottom: -30px;
+      left: 50%;
+      width: 100px;
+      transform: translate(-50%, -50%);
+      border-bottom: 8px solid var(--yellow-main);
+      position: absolute;
+    }
+  }
+  p {
+    width: 80%;
+    margin: 20px auto;
+    font-size: 1.6rem;
+    line-height: 24px;
+    font-weight: 400;
+  }
+  &__grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__main {
+    color: var(--color-white);
+    margin: 20px 0;
+    cursor: pointer;
+    background-color: var(--primary-main);
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 1rem 1.5rem 2rem rgba(black, 0.25);
+    &:hover {
+      background-color: var(--secondary-main);
+      box-shadow: 2rem 2.5rem 2rem rgba(black, 0.35);
+      color: var(--color-white);
+      text-decoration: none;
+    }
+
+    &-link {
+      font-size: 6rem;
+    }
+    h1 {
+      margin-top: 10px;
+      font-size: 18px;
+      font-weight: 500;
+    }
+  }
+}

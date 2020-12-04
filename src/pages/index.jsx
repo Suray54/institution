@@ -14,9 +14,9 @@ export default function Home() {
       <SEO title="Homepage" />
       <MainBanner />
       <AboutSection />
-      <ServicesSection />
-      <GetInTouch />
       <CoursesSection />
+      <GetInTouch />
+      <ServicesSection />
       <Testimonials />
     </Layouts>
   )

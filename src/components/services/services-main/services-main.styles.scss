@@ -1,5 +1,5 @@
-.services-section {
-  padding: 80px 10%;
+.services-main {
+  padding: 80px 8%;
   text-align: center;
   background-color: var(--background-color);
   h3 {
@@ -7,7 +7,7 @@
     font-weight: 900;
     text-transform: uppercase;
     color: var(--color-write);
-    margin-bottom: 80px;
+    margin-bottom: 60px;
     position: relative;
     &::before {
       content: "";
@@ -20,19 +20,27 @@
     }
   }
   p {
-    width: 85%;
-    margin: 10px auto;
-    text-align: center;
+    width: 80%;
+    margin: 20px auto;
     font-size: 1.6rem;
     line-height: 24px;
     font-weight: 400;
   }
   &__details {
     margin-top: 40px;
-    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     &-icon {
-      font-size: 40px;
+      font-size: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      height: 70px;
+      width: 70px;
       color: var(--primary-main);
+      background-color: var(--yellow-main);
     }
 
     h2 {
@@ -40,15 +48,6 @@
       font-size: 20px;
       font-weight: 500;
       text-transform: uppercase;
-    }
-    p {
-      width: 100%;
-      text-align: left;
-      margin: 20px auto;
-      font-size: 1.6rem;
-      line-height: 24px;
-      font-weight: 400;
-      color: var(--color-write-light);
     }
   }
 }

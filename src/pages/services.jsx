@@ -3,6 +3,8 @@ import SEO from "./../components/SEO"
 import Layouts from "../components/layouts/layouts.components"
 import Banner from "../components/banner/banner.components"
 import { graphql } from "gatsby"
+import ServicesMain from "../components/services/services-main/services-main.components"
+import CoursesMain from "../components/services/courses-main/courses-main.components"
 
 const services = ({ data }) => {
   return (
@@ -11,6 +13,8 @@ const services = ({ data }) => {
       <Banner image={data.backgroundImage.childImageSharp.fluid}>
         Our Services
       </Banner>
+      <CoursesMain />
+      <ServicesMain />
     </Layouts>
   )
 }
